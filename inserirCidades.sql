@@ -1,7 +1,7 @@
 select * from estados where id = 26
 
 insert into cidades (nome, area, estado_id)
-values ("Capinas", 795, 25)
+values ("Campinas", 795, 26)
 
 insert into cidades (nome, area, estado_id)
 values ("Niterói", 133.9, 20)
@@ -29,4 +29,4 @@ set nome = "Campinas"
 where estado_id = 25
 
 delete from cidades
-where area = 133.9
+where id = 6
